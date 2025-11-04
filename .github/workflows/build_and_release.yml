@@ -1,0 +1,51 @@
+name: Build and release
+
+on:
+  push:
+    branches: [master, main]
+
+env:
+  OUTPUT_NAME: marker_pack_example # Change this to your desired file output name
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.head_commit.message, '[CI-BUILD]')
+    permissions: write-all
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Zip files
+        uses: thedoctor0/zip-release@0.7.6
+        with:
+          type: "zip"
+          filename: "${{ env.OUTPUT_NAME }}.taco"
+          exclusions: "*.git* /*.github/* install.bat"
+      - name: Get version
+        id: get_version
+        run: echo "VERSION=$(echo ${{ github.event.head_commit.message }} | awk '{print $2}')" >> $GITHUB_OUTPUT
+      - name: Get changelog
+        id: get_changelog
+        uses: mindsers/changelog-reader-action@v2
+        with:
+          validation_level: warn
+          version: ${{ steps.get_version.outputs.version }}
+          path: ./CHANGELOG.md
+      - name: Create tag
+        id: create_tag
+        run: |
+          TAG_NAME=${{ steps.get_changelog.outputs.version }}
+          git tag $TAG_NAME
+          echo "TAG_NAME=$TAG_NAME" >> $GITHUB_OUTPUT
+          git push origin --tags
+      - name: Create/update release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "${{ env.OUTPUT_NAME }}.taco"
+          tag: ${{ steps.get_changelog.outputs.version }}
+          name: ${{ steps.get_changelog.outputs.version }}
+          body: ${{ steps.get_changelog.outputs.changes }}
+          prerelease: ${{ steps.get_changelog.outputs.status == 'prereleased' }}
+          draft: ${{ steps.get_changelog.outputs.status == 'unreleased' }}
+          allowUpdates: true
+          token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,7 @@
+<OverlayData>
+    <MarkerCategory name="marker_pack_example" displayname="Marker Pack Example">
+    </MarkerCategory>
+    <POIs>
+        <POI MapID="50" xpos="-178" ypos="21" zpos="207" GUID="KwMlJ9dSTFqjwwAAXm8y/A"/>
+    </POIs>
+</OverlayData>
