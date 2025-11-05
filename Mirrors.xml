@@ -5,11 +5,11 @@
       <MarkerCategory Name="Medium" iconFile="Data/VoE Mirrors/Medium.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="20" behavior="2"/>
       <MarkerCategory Name="Large" iconFile="Data/VoE Mirrors/Large.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="20" behavior="2"/>
       <MarkerCategory Name="largepark" DisplayName="Large Chest Parking" iconFile="Data/shared/trail.png" iconSize="0.3" alpha="0.9" 
-        heightOffset="0.7" miniMapVisibility="0" mapVisibility="1" color="#ffff00">
+        heightOffset="0.7" miniMapVisibility="1" mapVisibility="1" color="#ffff00">
         <MarkerCategory Name="Disclaimer"  inforange="10" iconFile="Data/shared/invisible.png"
           info="Yellow paths lead to Large Chests, which cost 10 key charges to open. &#xA;Park a character at the mirror, and use the Position Rewinder to loot the Large Chest, then return to the mirror."/>
       </MarkerCategory>
-      <MarkerCategory Name="chestpath" DisplayName="Chest Farm Route" texture="Data/shared/trail.png" iconSize="0.3" alpha="0.9" heightOffset="0.7" miniMapVisibility="0" mapVisibility="1">
+      <MarkerCategory Name="chestpath" DisplayName="Chest Farm Route" texture="Data/shared/trail.png" iconSize="0.3" alpha="0.9" heightOffset="0.7" miniMapVisibility="1" mapVisibility="1">
         <MarkerCategory Name="path1start" DisplayName="Path 1 Start" iconFile="Data/shared/path1.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="50" />
         <MarkerCategory Name="path2start" DisplayName="Path 2 Start" iconFile="Data/shared/path2.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="50" />
         <MarkerCategory Name="path3start" DisplayName="Path 3 Start" iconFile="Data/shared/path3.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="50" />

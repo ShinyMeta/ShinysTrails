@@ -2,6 +2,17 @@
 
 ## [Unreleased]
 
+## [1.0.2]- 2025-11-05
+
+### Changed
+
+- Set mirror trail minimap visibility to 1
+
+### Removed
+
+- unused kodan cache marker images
+- duplicate kodan cache pois
+
 ## [1.0.1]- 2025-11-05
 
 ### Added
