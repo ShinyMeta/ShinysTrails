@@ -1,0 +1,34 @@
+<OverlayData>
+	<MarkerCategory Name="shiny" DisplayName="Shiny's Trails">
+      <MarkerCategory Name="skimmerscan" DisplayName="Skimmer Chests" iconFile="Data/Skimmer Chests/ScannedChest.png" iconSize="0.4" heightOffset="0.5"  behavior="2" fadenear="900" fadefar="1000">
+      </MarkerCategory>
+	</MarkerCategory>
+  <POIs>
+    <!-- Seitung Province -->
+      <POI MapID="1442" xpos="-306.442" ypos="-10.9771" zpos="-177.154" type="shiny.skimmerscan" GUID="hojLRJNnz0qOhyPPcMU/3g=="/>
+      <POI MapID="1442" xpos="-297.911" ypos="-29.7112" zpos="-311.584" type="shiny.skimmerscan" GUID="EUhuBFfgyE2Hsgxs1vj1Zw=="/>
+      <POI MapID="1442" xpos="-287.627" ypos="-27.4502" zpos="-451.5" type="shiny.skimmerscan" GUID="p/6aG3bEn0+gJZouD5Z+wQ=="/>
+      <POI MapID="1442" xpos="-184.275" ypos="-5.67827" zpos="-595.083" type="shiny.skimmerscan" GUID="godfAjXh40u7TIZ9lNS5vg=="/>
+      <POI MapID="1442" xpos="324.333" ypos="-15.1308" zpos="-670.753" type="shiny.skimmerscan" GUID="dlR8RTMZO0G9XJUpQg2tzg=="/>
+      <POI MapID="1442" xpos="660.105" ypos="-23.6171" zpos="-412.57" type="shiny.skimmerscan" GUID="TrnwWayBrUW8JIp89i+j1Q=="/>
+      <POI MapID="1442" xpos="687.926" ypos="-16.3992" zpos="-690.396" type="shiny.skimmerscan" GUID="61tafipBO0KraGc8WK3mQg=="/>
+      <POI MapID="1442" xpos="1092.9" ypos="-20.1453" zpos="43.7835" type="shiny.skimmerscan" GUID="SPdKg+rapUegTrYk5u26AQ=="/>
+      <POI MapID="1442" xpos="814.528" ypos="-17.7583" zpos="626.563" type="shiny.skimmerscan" GUID="DECuZpxvok6qtqxMN108HA=="/>
+      <POI MapID="1442" xpos="-427.381" ypos="-13.2663" zpos="718.586" type="shiny.skimmerscan" GUID="BCHiiX9a1kifEWq4VIFwkQ=="/>
+      <POI MapID="1442" xpos="-560.383" ypos="-15.4499" zpos="697.151" type="shiny.skimmerscan" GUID="3invbyieGk+YW9TjFW32MQ=="/>
+      <POI MapID="1442" xpos="-480.708" ypos="-6.49421" zpos="241.766" type="shiny.skimmerscan" GUID="cozgQsDkuky8qKNJQ5JltA=="/>
+      <POI MapID="1442" xpos="-950.783" ypos="-18.3991" zpos="-494.004" type="shiny.skimmerscan" GUID="wzeM6FLcck2AX8dE7VJ7OA=="/>
+      <POI MapID="1442" xpos="-1015.73" ypos="-11.2513" zpos="-709.904" type="shiny.skimmerscan" GUID="0haPgkIRU0CNBWXqYBfHZw=="/>
+      <POI MapID="1442" xpos="-346.727" ypos="-15.0806" zpos="-685.739" type="shiny.skimmerscan" GUID="EfpAUjVwLUeDheDBzO6jWA=="/>
+      <POI MapID="1442" xpos="-180.359" ypos="-1.95958" zpos="164.654" type="shiny.skimmerscan" GUID="WYWUreU8ak27cSEVG/V37A=="/>
+
+    <!-- New Kaineng City -->
+  		<POI MapID="1438" xpos="-913.829" ypos="-6.94585" zpos="-288.492" type="shiny.skimmerscan" GUID="Y5M3eZJCJU61QaRe5C76nw=="/>
+      <POI MapID="1438" xpos="-1002.06" ypos="-13.4023" zpos="-187.592" type="shiny.skimmerscan" GUID="3qho3AvOsEW1Az4SYV6ujA=="/>
+      <POI MapID="1438" xpos="-958.826" ypos="-19.1523" zpos="-6.68884" type="shiny.skimmerscan" GUID="k6XG+jz2skaNgjbfhGkumQ=="/>
+      <POI MapID="1438" xpos="-926.263" ypos="-65.0752" zpos="288.564" type="shiny.skimmerscan" GUID="2uNFsFSZnUeyrbgdRIRBTA=="/>
+	
+
+	
+  </POIs>
+</OverlayData>
