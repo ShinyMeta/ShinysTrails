@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.0.1]- 2025-11-05
+
+### Added
+
+- Fixed build file name, should release as "shinystrails.taco"
+
 ## [1.0.0]- 2025-11-05
 
 ### Added
