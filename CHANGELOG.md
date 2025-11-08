@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [1.0.3]- 2025-11-05
+
+### Changed
+
+- Rerouted two trails in Starlit to get two chests I missed somehow
+
 ## [1.0.2]- 2025-11-05
 
 ### Changed
