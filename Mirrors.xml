@@ -4,68 +4,29 @@
       <MarkerCategory Name="Small" iconFile="Data/VoE Mirrors/Small.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="20" behavior="2"/>
       <MarkerCategory Name="Medium" iconFile="Data/VoE Mirrors/Medium.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="20" behavior="2"/>
       <MarkerCategory Name="Large" iconFile="Data/VoE Mirrors/Large.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="20" behavior="2"/>
-      <MarkerCategory Name="largepark" DisplayName="Large Chest Parking" iconFile="Data/shared/trail.png" iconSize="0.3" alpha="0.9" 
-        heightOffset="0.7" miniMapVisibility="1" mapVisibility="1" color="#ffff00">
-        <MarkerCategory Name="Disclaimer"  inforange="10" iconFile="Data/shared/invisible.png"
-          info="Yellow paths lead to Large Chests, which cost 10 key charges to open. &#xA;Park a character at the mirror, and use the Position Rewinder to loot the Large Chest, then return to the mirror."/>
-      </MarkerCategory>
-      <MarkerCategory Name="chestpath" DisplayName="Chest Farm Route" texture="Data/shared/trail.png" iconSize="0.3" alpha="0.9" heightOffset="0.7" miniMapVisibility="1" mapVisibility="1">
+      <MarkerCategory Name="chestpath" DisplayName="Daily Farmpath" texture="Data/shared/trail.png" iconSize="0.3" alpha="0.9" heightOffset="0.7" miniMapVisibility="1" mapVisibility="1">
         <MarkerCategory Name="path1start" DisplayName="Path 1 Start" iconFile="Data/shared/path1.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="50" />
         <MarkerCategory Name="path2start" DisplayName="Path 2 Start" iconFile="Data/shared/path2.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="50" />
         <MarkerCategory Name="path3start" DisplayName="Path 3 Start" iconFile="Data/shared/path3.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="50" />
         <MarkerCategory Name="path4start" DisplayName="Path 4 Start" iconFile="Data/shared/path4.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="50" />
-        <MarkerCategory Name="path5start" DisplayName="Path 5 Start" iconFile="Data/shared/path5.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="50" />
         <MarkerCategory Name="kill" DisplayName="Danger Warning" iconFile="Data/shared/kill.png" iconSize="0.4" heightOffset="4" mapDisplaySize="50"  miniMapVisibility="0" mapVisibility="0" inforange="10" />
       </MarkerCategory>
     </MarkerCategory>
 	</MarkerCategory>
   <POIs>
+  
 
-  <Trail type="shiny.mirror.largepark" GUID="OcG8OxH9BkSUM7dxBQnG8A==" trailData="Data\VoE Mirrors\trails\Large-Basillica.trl"/>
-  <Trail type="shiny.mirror.largepark" GUID="epF6LOM/4UmGD28k8r6mug==" trailData="Data\VoE Mirrors\trails\Large-Cloister.trl"/>
-  <Trail type="shiny.mirror.largepark" GUID="gAnNY1rKdU+X6hp+tX9UGw==" trailData="Data\VoE Mirrors\trails\Large-OvergrownThicket.trl"/>
-  <Trail type="shiny.mirror.largepark" GUID="NiNYkBJhQUO3IyA1SyvfcQ==" trailData="Data\VoE Mirrors\trails\Large-CommandComplex.trl"/>
-  <Trail type="shiny.mirror.largepark" GUID="TQ2/u2q/aUSytMv+wCR54w==" trailData="Data\VoE Mirrors\trails\Large-SoaringSands.trl"/>
-  <Trail type="shiny.mirror.largepark" GUID="3KLq7jDrXE2WMBTnL81bmg==" trailData="Data\VoE Mirrors\trails\Large-GuardedGlade.trl"/>
-  <Trail type="shiny.mirror.largepark" GUID="bLVqEqwHGUu+VddrFLrX5A==" trailData="Data\VoE Mirrors\trails\Large-TwistingHollow.trl"/>
-  <Trail type="shiny.mirror.largepark" GUID="2ZvVN4ILmUey7BQIMwgHhg==" trailData="Data\VoE Mirrors\trails\Large-RiddledCove.trl"/>
-
-  <Trail type="shiny.mirror.chestpath" GUID="CJfgnxu020S7+Y8jcMjQKQ==" trailData="Data\VoE Mirrors\trails\Chests-Starlit1.trl"/>
-    <POI MapID="1593" xpos="-243.9038" ypos="58.59165" zpos="14.95033" GUID="RhGgWolf9UWHBf3xrfHKCw==" type="shiny.mirror.chestpath.path1start"/>
-    <POI MapID="1593" xpos="-161.3896" ypos="61.99329" zpos="-101.5067" GUID="Njkwm6VtikmNTxAszCbfNQ==" type="shiny.mirror.chestpath.path1start"/>
-
-  <Trail type="shiny.mirror.chestpath" GUID="0dW5+MrySUyHInkoxg+o1A==" trailData="Data\VoE Mirrors\trails\Chests-Starlit2.trl"/>
-    <POI MapID="1593" xpos="-149.0701" ypos="61.06109" zpos="-112.1822" GUID="XbMjn7BVJ06kNPRVUcUbAQ==" type="shiny.mirror.chestpath.path2start"/>
-
-  <Trail type="shiny.mirror.chestpath" GUID="BoTQdJNys0avykVOi7Ab7Q==" trailData="Data\VoE Mirrors\trails\Chests-Starlit3.trl"/>
-    <POI MapID="1593" xpos="-146.4789" ypos="64.49999" zpos="-92.75542" GUID="GBIAneUH4UGO5cvjqWFoHg==" type="shiny.mirror.chestpath.path3start"
-      inforange="15" info="Log out to Character Select before beginning path 3 to reset the Mirrors"/>
-    <POI MapID="1593" xpos="-235.8987" ypos="57.013" zpos="4.710938" GUID="g3MDxhp10UuhNW69Oj1J3A==" type="shiny.mirror.chestpath.path3start"/>
-
-  <Trail type="shiny.mirror.chestpath" GUID="avZbom5tnk2NcwB/6RS1qA==" trailData="Data\VoE Mirrors\trails\Chests-Starlit4.trl"/>
-    <POI MapID="1593" xpos="501.906" ypos="2.399206" zpos="-528.4165" GUID="EP29rZQqy0G3D0AxdnVCzg==" type="shiny.mirror.chestpath.path4start"/>
-
-  <Trail type="shiny.mirror.chestpath" GUID="t4ha4wPU7U6y7JaG8h+oKA==" trailData="Data\VoE Mirrors\trails\Chests-Starlit5.trl"/>
-    <POI MapID="1593" xpos="-65.59399" ypos="6.677085" zpos="372.8516" GUID="f+MFSXpF8kyBDrUzA1215g==" type="shiny.mirror.chestpath.path5start"/>
-
-
-
-  <Trail type="shiny.mirror.chestpath" GUID="XWDjFW586E+Vzdn4h3c7wA==" trailData="Data\VoE Mirrors\trails\Chests-Shipwreck1.trl"/>
-    <POI MapID="1595" xpos="228.2965" ypos="0.7188442" zpos="-462.1643" GUID="VSu8hUeG5keRX1JsVm26Cg==" type="shiny.mirror.chestpath.path1start"/>
-
-  <Trail type="shiny.mirror.chestpath" GUID="3WKhI0oheUinGdn5RNZZdw==" trailData="Data\VoE Mirrors\trails\Chests-Shipwreck2.trl"/>
-    <POI MapID="1595" xpos="555.1624" ypos="0.3265716" zpos="664.2569" GUID="9JVGrQ8RHEy30+G8BAhiGQ==" type="shiny.mirror.chestpath.path2start"/>
-    <POI MapID="1595" xpos="523.2496" ypos="42.08203" zpos="763.7227" GUID="9xSxMue970+zp+sZQZSpJQ==" type="shiny.mirror.chestpath.path2start"/>
-
-	<Trail type="shiny.mirror.chestpath" GUID="I7rS/oxg5UW2CfebZ28ZoQ==" trailData="Data\VoE Mirrors\trails\Chests-Shipwreck3.trl"/>
-    <POI MapID="1595" xpos="512.1994" ypos="1.688704" zpos="14.9456" GUID="wH2dcZFMFEKO9nHMCj23DA==" type="shiny.mirror.chestpath.path3start"
-      inforange="15" info="Log out to Character Select before beginning path 3 to reset the Mirrors"/>
-    <POI MapID="1595" xpos="568.8049" ypos="0.2592865" zpos="674.2969" GUID="q/2TEVOyZk6QY6W1gi4nyg==" type="shiny.mirror.chestpath.path4start"/>
-    <POI MapID="1595" xpos="542.687" ypos="49.74285" zpos="740.3685" GUID="6JCWhaIkiUad7b8Da1EDBg==" type="shiny.mirror.chestpath.path4start"/>
 		
   <!-- SHIPWRECK STRAND -->
+
+  <Trail type="shiny.mirror.chestpath" GUID="XWDjFW586E+Vzdn4h3c7wA==" trailData="Data\VoE Mirrors\trails\nerf-Shipwreck1.trl"/>
+    <POI MapID="1595" xpos="226.5295" ypos="3.408772" zpos="-448.7358" GUID="VSu8hUeG5keRX1JsVm26Cg==" type="shiny.mirror.chestpath.path1start"
+       inforange="20" info="This path collects all mirrors and medium chests.&#xA;If you have extra charges from any other sources, pick up some small chests along the way."/>
+
+  <Trail type="shiny.mirror.chestpath" GUID="3WKhI0oheUinGdn5RNZZdw==" trailData="Data\VoE Mirrors\trails\nerf-Shipwreck2.trl"/>
+    <POI MapID="1595" xpos="561.7558" ypos="0.1514" zpos="668.4656" GUID="9JVGrQ8RHEy30+G8BAhiGQ==" type="shiny.mirror.chestpath.path2start"/>
+
   <!-- Soaring Sands -->
-    <POI MapID="1595" xpos="527.065" ypos="47.2544" zpos="752.515" type="shiny.mirror.largepark.disclaimer" GUID="cC77nobEDE2ymZv8QS392Q=="/>
     <POI MapID="1595" xpos="527.065" ypos="47.2544" zpos="752.515" type="shiny.mirror" GUID="rWSM+jipykWMfHoFa6yxxQ=="/>
       <POI MapID="1595" xpos="238.604" ypos="41.4385" zpos="762.661" type="shiny.mirror.small" GUID="l6Tt16xuG0evCiVMzCLT0g=="/>
       <POI MapID="1595" xpos="386.168" ypos="53.5399" zpos="365.009" type="shiny.mirror.large" GUID="YvDGK8PJJ0i9g5MlRie9og=="/>
@@ -87,11 +48,10 @@
 		<POI MapID="1595" xpos="-455.924" ypos="56.4722" zpos="727.968" type="shiny.mirror" GUID="qVwxnQ8fSUiOvzwPRH8XAQ=="/>
 		  <POI MapID="1595" xpos="-582.117" ypos="25.2457" zpos="828.913" type="shiny.mirror.small" GUID="OLXxcu1iz0mXfdHB/Wslzg=="/>
       <POI MapID="1595" xpos="-570.4233" ypos="5.219268" zpos="592.9197" type="shiny.mirror.small" GUID="bn7lVqF9SU2gT+Xqw9suog=="/>
-      <POI MapID="1595" xpos="-570.7856" ypos="5.219268" zpos="593.2489" type="shiny.mirror.small" GUID="QmtGKq5ySU2PLkm0X3vPkg=="/>
+      <POI MapID="1595" xpos="-609.4313" ypos="89.10479" zpos="549.7405" type="shiny.mirror.small" GUID="QmtGKq5ySU2PLkm0X3vPkg=="/>
       <POI MapID="1595" xpos="-401.5767" ypos="1.387491" zpos="590.548" type="shiny.mirror.small" GUID="iHxTu/eDikOc6+e7kPQbbw=="/>
 
   <!-- Guarded Glades -->
-		<POI MapID="1595" xpos="-315.452" ypos="76.0996" zpos="196.179" type="shiny.mirror.largepark.disclaimer" GUID="aFTec6DL40Oc84C5ZtAPbQ=="/>
 		<POI MapID="1595" xpos="-315.452" ypos="76.0996" zpos="196.179" type="shiny.mirror" GUID="ddSl6ZR3cUqq8qPyPL8DMA=="/>
 		  <POI MapID="1595" xpos="-216.713" ypos="6.94264" zpos="155.978" type="shiny.mirror.small" GUID="FcvV5kM4REqRF2l7kCyPhg=="/>
 		  <POI MapID="1595" xpos="-214.565" ypos="27.0497" zpos="-14.2768" type="shiny.mirror.large" GUID="Sq0iWEvynkqV3vaYpIeuCw=="/>
@@ -111,7 +71,6 @@
   <!-- Twisting Hollows -->
     <POI MapID="1595" xpos="-573.079" ypos="73.8955" zpos="-153.809" type="shiny.mirror.chestpath.kill" GUID="iBsDeNaEzU25Olw359TtIg=="
       info="Check for/kill Iboga.&#xA;If it pulls you, mirror will bug"/>
-		<POI MapID="1595" xpos="-567.8188" ypos="74.95242" zpos="-165.6655" type="shiny.mirror.largepark.disclaimer" GUID="h1Lat81OcUaOZevm0fAb8w=="/>
 		<POI MapID="1595" xpos="-573.079" ypos="73.8955" zpos="-153.809" type="shiny.mirror" GUID="IbZpa3y+JUe1jgF5hxI2fg=="/>
 		  <POI MapID="1595" xpos="-524.645" ypos="110.585" zpos="-409.065" type="shiny.mirror.large" GUID="OfiI7viL50yhx2imggetBA=="/>
       <POI MapID="1595" xpos="-323.698" ypos="10.7743" zpos="-402.177" type="shiny.mirror.medium" GUID="8MIxbBWXcUSUHF7Wf83G8Q=="/>
@@ -120,7 +79,6 @@
       <POI MapID="1595" xpos="-129.4349" ypos="36.98781" zpos="-73.2923" type="shiny.mirror.medium" GUID="5SYFyi1HukCroe9i4AFWjg=="/>
 
   <!-- Riddled Cove -->
-		<POI MapID="1595" xpos="-444.603" ypos="103.411" zpos="-494.083" type="shiny.mirror.largepark.disclaimer" GUID="XxY37WZJYU2Do2x5f0PmzA=="/>
 		<POI MapID="1595" xpos="-444.603" ypos="103.411" zpos="-494.083" type="shiny.mirror" GUID="zoztoP5ZN0mx/TxFsfScaw=="/>
 		  <POI MapID="1595" xpos="-562.74" ypos="123.483" zpos="-636.525" type="shiny.mirror.small" GUID="MTqPo0zDaUuFm8UVO6WMsA=="/>
       <POI MapID="1595" xpos="-428.476" ypos="7.16288" zpos="-725.771" type="shiny.mirror.small" GUID="4bZENUzOxEWDqKqKbQ+mjg=="/>
@@ -147,6 +105,19 @@
 
 
   <!-- STARLIT WEALD -->
+  
+  <Trail type="shiny.mirror.chestpath" GUID="CJfgnxu020S7+Y8jcMjQKQ==" trailData="Data\VoE Mirrors\trails\nerf-Starlit1.trl"/>
+    <POI MapID="1593" xpos="501.0766" ypos="2.620956" zpos="-533.6324" GUID="RhGgWolf9UWHBf3xrfHKCw==" type="shiny.mirror.chestpath.path1start"
+       inforange="20" info="This path collects all mirrors and medium chests.&#xA;If you have extra charges from any other sources, pick up some small chests along the way."/>
+
+  <Trail type="shiny.mirror.chestpath" GUID="0dW5+MrySUyHInkoxg+o1A==" trailData="Data\VoE Mirrors\trails\nerf-Starlit2.trl"/>
+    <POI MapID="1593" xpos="-61.75022" ypos="6.075623" zpos="374.7052" GUID="XbMjn7BVJ06kNPRVUcUbAQ==" type="shiny.mirror.chestpath.path2start"/>
+
+  <Trail type="shiny.mirror.chestpath" GUID="BoTQdJNys0avykVOi7Ab7Q==" trailData="Data\VoE Mirrors\trails\nerf-Starlit3.trl"/>
+    <POI MapID="1593" xpos="-138.3405" ypos="61.06537" zpos="-108.6063" GUID="GBIAneUH4UGO5cvjqWFoHg==" type="shiny.mirror.chestpath.path3start"/>
+
+  <Trail type="shiny.mirror.chestpath" GUID="avZbom5tnk2NcwB/6RS1qA==" trailData="Data\VoE Mirrors\trails\nerf-Starlit4.trl"/>
+    <POI MapID="1593" xpos="-161.6664" ypos="63.08892" zpos="-92.97212" GUID="EP29rZQqy0G3D0AxdnVCzg==" type="shiny.mirror.chestpath.path4start"/>
 
   <!-- Shimmering Basin -->
 		<POI MapID="1593" xpos="284.716" ypos="39.7295" zpos="-554.911" type="shiny.mirror" GUID="lUaUjBSpf0yocQKBDFAjcw=="/>
@@ -179,7 +150,6 @@
       <POI MapID="1593" xpos="111.442" ypos="29.9511" zpos="107.138" type="shiny.mirror.small" GUID="YmO2cUdiPUe7TLpAm1o9CA=="/>
 
   <!-- Cloister of Stars -->
-		<POI MapID="1593" xpos="-392.994" ypos="135.915" zpos="-23.4795" type="shiny.mirror.largepark.disclaimer" GUID="cagB2HIruEin0Ro3xFECjw=="/>
 		<POI MapID="1593" xpos="-392.994" ypos="135.915" zpos="-23.4795" type="shiny.mirror" GUID="2Lf9UXjLuEKOM/oMT0k9qQ=="/>
       <POI MapID="1593" xpos="-498.513" ypos="104.477" zpos="-74.9969" type="shiny.mirror.small" GUID="vfX/m6v0+kefFGXBMiiRcQ=="/>
       <POI MapID="1593" xpos="-587.663" ypos="106.426" zpos="-167.02" type="shiny.mirror.medium" GUID="aiD865VYd0ypfzIzJVbGcQ=="/>
@@ -189,7 +159,6 @@
       <POI MapID="1593" xpos="-422.415" ypos="64.1934" zpos="124.989" type="shiny.mirror.small" GUID="zFMffbUftkaSkl0pKccVhA=="/>
 
   <!-- Overgrown Thicket -->
-		<POI MapID="1593" xpos="-713.1108" ypos="66.94627" zpos="-324.6494" type="shiny.mirror.largepark.disclaimer" GUID="V0LKtkXwCk+pt18PRowMwQ=="/>
 		<POI MapID="1593" xpos="-711.69" ypos="65.8086" zpos="-313.555" type="shiny.mirror.chestpath.kill" GUID="LcyjmBdd5kWZXVIMDoN86w=="
       info="Mobs here can block your shots, might need to kill first."/>
 		<POI MapID="1593" xpos="-711.69" ypos="65.8086" zpos="-313.555" type="shiny.mirror" GUID="EPCgSb2SNUGbQouoME8gjw=="/>
@@ -202,7 +171,6 @@
       <POI MapID="1593" xpos="-331.416" ypos="95.3529" zpos="-648.557" type="shiny.mirror.medium" GUID="LSQoOxTEdU+mHFegW33TAw=="/>
 
   <!-- Lost Basilica -->
-		<POI MapID="1593" xpos="-433.672" ypos="149.266" zpos="404.841" type="shiny.mirror.largepark.disclaimer" GUID="7BUQTMmIpkmrwW5LCqTMTg=="/>
 		<POI MapID="1593" xpos="-433.672" ypos="149.266" zpos="404.841" type="shiny.mirror" GUID="jx4Xo8qFsUad4wfWIidUnw=="/>
 		  <POI MapID="1593" xpos="-539.21" ypos="70.6987" zpos="249.247" type="shiny.mirror.medium" GUID="iO10mGSX8kWtQJzqn2+TDw=="/>
       <POI MapID="1593" xpos="-780.005" ypos="91.9506" zpos="168.433" type="shiny.mirror.large" GUID="I4xeN6/Y9kqtCjm2LA9Pog=="/>
@@ -220,7 +188,6 @@
       <POI MapID="1593" xpos="-168.143" ypos="47.475" zpos="250.514" type="shiny.mirror.small" GUID="cxrX3Ymdi02iUrSDh0fp3w=="/>
 
   <!-- Command Complex -->
-		<POI MapID="1593" xpos="542.557" ypos="29.0905" zpos="507.366" type="shiny.mirror.largepark.disclaimer" GUID="5Qs+UdbNYkyAun+k+SHNIA=="/>
 		<POI MapID="1593" xpos="542.557" ypos="29.0905" zpos="507.366" type="shiny.mirror" GUID="/ksKqFioFEiLYdfghFH7XA=="/>
       <POI MapID="1593" xpos="404.85" ypos="39.1943" zpos="435.258" type="shiny.mirror.small" GUID="9CowgY5gs0+HlPf//CLzyw=="/>
       <POI MapID="1593" xpos="508.69" ypos="6.29949" zpos="346.563" type="shiny.mirror.medium" GUID="6/+VI+XT0keFmisEgmQj6w=="/>

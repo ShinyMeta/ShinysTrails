@@ -2,7 +2,18 @@
 
 ## [Unreleased]
 
-## [1.0.3]- 2025-11-05
+## [1.0.4]- 2025-11-20
+
+### Added
+
+- New routes to collect Medium only, after Mirror key charge nerf
+
+### Removed
+
+- pre-nerf routes for all chests
+- large chest park locations
+
+## [1.0.3]- 2025-11-07
 
 ### Changed
 
