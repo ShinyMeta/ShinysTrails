@@ -5,11 +5,14 @@
       <MarkerCategory Name="Medium" iconFile="Data/VoE Mirrors/Medium.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="20" behavior="2"/>
       <MarkerCategory Name="Large" iconFile="Data/VoE Mirrors/Large.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="20" behavior="2"/>
       <MarkerCategory Name="chestpath" DisplayName="Daily Farmpath" texture="Data/shared/trail.png" iconSize="0.3" alpha="0.9" heightOffset="0.7" miniMapVisibility="1" mapVisibility="1">
+        <MarkerCategory Name="hintpath" DisplayName="Extra Charges" texture="Data/shared/trail.png" iconSize="0.3" alpha="0.9" heightOffset="0.7" miniMapVisibility="1" mapVisibility="1" color="#FFFF00">
+          <MarkerCategory Name="keychargecheck" DisplayName="Key Charge Check" iconSize="0.8" heightOffset="0.5" miniMapVisibility="0" mapVisibility="0" fadenear="2900" fadefar="3000" color="#FFFFFF"/>
+        </MarkerCategory>
         <MarkerCategory Name="path1start" DisplayName="Path 1 Start" iconFile="Data/shared/path1.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="50" />
         <MarkerCategory Name="path2start" DisplayName="Path 2 Start" iconFile="Data/shared/path2.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="50" />
         <MarkerCategory Name="path3start" DisplayName="Path 3 Start" iconFile="Data/shared/path3.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="50" />
         <MarkerCategory Name="path4start" DisplayName="Path 4 Start" iconFile="Data/shared/path4.png" iconSize="0.4" heightOffset="0.5" mapDisplaySize="50" />
-        <MarkerCategory Name="kill" DisplayName="Danger Warning" iconFile="Data/shared/kill.png" iconSize="0.4" heightOffset="4" mapDisplaySize="50"  miniMapVisibility="0" mapVisibility="0" inforange="10" />
+        <MarkerCategory Name="kill" DisplayName="Danger Warning" iconFile="Data/shared/kill.png" iconSize="0.4" heightOffset="4" miniMapVisibility="0" mapVisibility="0" inforange="10" />
       </MarkerCategory>
     </MarkerCategory>
 	</MarkerCategory>
@@ -25,6 +28,27 @@
 
   <Trail type="shiny.mirror.chestpath" GUID="3WKhI0oheUinGdn5RNZZdw==" trailData="Data\VoE Mirrors\trails\nerf-Shipwreck2.trl"/>
     <POI MapID="1595" xpos="561.7558" ypos="0.1514" zpos="668.4656" GUID="9JVGrQ8RHEy30+G8BAhiGQ==" type="shiny.mirror.chestpath.path2start"/>
+
+  <!-- Trail hints -->
+    <!-- 6+  hint1 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/6.png" MapID="1595" xpos="-426.7901" ypos="21.41666" zpos="-740.6661" GUID="Fcqo2lAvU0SCZ/6u91x9BA==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="5gvAGuUvT0Gy6XdDjLfDgA==" trailData="Data\VoE Mirrors\trails\hint-Shipwreck1.trl"/>
+    <!-- 2+  hint2 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/2.png" MapID="1595" xpos="-334.8839" ypos="10.168" zpos="-401.3633" GUID="srDD43I1NEylc56vujQUCg==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="oI2K5J+I1kGfwhKAwLo6Aw==" trailData="Data\VoE Mirrors\trails\hint-Shipwreck2.trl"/>
+    <!-- 10+ hint3 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/10.png" MapID="1595" xpos="-560.3548" ypos="123.7379" zpos="-630.3799" GUID="e7BeLqMNvESyeVG0LC2zlA==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="bXM16rHvvkaj6/7Zdn79CA==" trailData="Data\VoE Mirrors\trails\hint-Shipwreck3.trl"/>
+    <!-- 14+ hint4 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/14.png" MapID="1595" xpos="-496.3902" ypos="3.22968" zpos="-605.2954" GUID="3ojKlFPhzUWhrxAuSvVEuw==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="pj/tjNWuDUaj7ehSOM6NVg==" trailData="Data\VoE Mirrors\trails\hint-Shipwreck4.trl"/>
+    <!-- 13+ hint5 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/13.png" MapID="1595" xpos="-69.23481" ypos="25.45093" zpos="-73.09605" GUID="zOb66m41S0uxQYbZHQ1fUA==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="s0POYoohtkO0oNSyIxnCjA==" trailData="Data\VoE Mirrors\trails\hint-Shipwreck5.trl"/>
+    <!-- 12+ hint6 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/12.png" MapID="1595" xpos="522.4389" ypos="40.87045" zpos="769.0907" GUID="EbZcJ33cB02RCZp3GOYYZw==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="Fgd/LERvdUyKtRBAHFd2Dg==" trailData="Data\VoE Mirrors\trails\hint-Shipwreck6.trl"/>
+    <!-- 4+  hint7 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/4.png" MapID="1595" xpos="315.1522" ypos="35.46531" zpos="503.1313" GUID="FR09D0kdk0+wQHrPDtLZJw==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="mJkS6WLpsU+3F3c1YaX7zw==" trailData="Data\VoE Mirrors\trails\hint-Shipwreck7.trl"/>
+    <!-- 10+ hint8 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/10.png" MapID="1595" xpos="-444.5878" ypos="61.06954" zpos="713.7641" GUID="wLnvAa1XBkWCcLYSDwg7Cw==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="eO+8ZfU75kSbilS2TJhb0g==" trailData="Data\VoE Mirrors\trails\hint-Shipwreck8.trl"/>
+    <!-- 11+ hint9 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/11.png" MapID="1595" xpos="-370.7444" ypos="117.918" zpos="202.8751" GUID="ww8fGpArUEe5DfZJmnbKYQ==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="8xpUixKY8EK4A04K28F6nA==" trailData="Data\VoE Mirrors\trails\hint-Shipwreck9.trl"/>
+
 
   <!-- Soaring Sands -->
     <POI MapID="1595" xpos="527.065" ypos="47.2544" zpos="752.515" type="shiny.mirror" GUID="rWSM+jipykWMfHoFa6yxxQ=="/>
@@ -118,6 +142,26 @@
 
   <Trail type="shiny.mirror.chestpath" GUID="avZbom5tnk2NcwB/6RS1qA==" trailData="Data\VoE Mirrors\trails\nerf-Starlit4.trl"/>
     <POI MapID="1593" xpos="-161.6664" ypos="63.08892" zpos="-92.97212" GUID="EP29rZQqy0G3D0AxdnVCzg==" type="shiny.mirror.chestpath.path4start"/>
+
+    
+  <!-- Trail hints -->
+    <!-- 8+  hint1 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/8.png" MapID="1593" xpos="266.9287" ypos="9.844527" zpos="222.0993" GUID="rje3uhqpO0yyCDlxBU/WUQ==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="WDjEwRNZGUmfXMz9M+tRWQ==" trailData="Data\VoE Mirrors\trails\hint-Starlit1.trl"/>
+    <!-- 2+  hint2 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/2.png" MapID="1593" xpos="-290.463" ypos="116.6804" zpos="-638.7272" GUID="fRvKKSL040qP7RFnL1r6eQ==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="xRFEKWj/HUqGcUPN6FHTrw==" trailData="Data\VoE Mirrors\trails\hint-Starlit2.trl"/>
+    <!-- 20+ hint3 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/20.png" MapID="1593" xpos="-400.2534" ypos="118.5467" zpos="40.96301" GUID="cn2pocNkTUSeMpsHqs0cnQ==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="nHJbeIowCEmuUbEeyFi7Bg==" trailData="Data\VoE Mirrors\trails\hint-Starlit3.trl"/>
+    <!-- 23+ hint4 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/23.png" MapID="1593" xpos="-402.7073" ypos="135.2316" zpos="-10.84958" GUID="gfdwBPJzzUC6k6gxHesq2w==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="QglvVtXB/kOAJwvss3ABiA==" trailData="Data\VoE Mirrors\trails\hint-Starlit4.trl"/>
+    <!-- 12+ hint5 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/12.png" MapID="1593" xpos="533.2411" ypos="28.226" zpos="503.4948" GUID="bXcMtBHOcEqJg/HacLs0Uw==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="Q/hMPQB0WEGS0GkmdPrlDg==" trailData="Data\VoE Mirrors\trails\hint-Starlit5.trl"/>
+    <!-- 9+  hint6 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/9.png" MapID="1593" xpos="833.7426" ypos="70.22605" zpos="-69.97108" GUID="RGoxhVWe80WJ5H/W37At6g==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+    <!-- 9+  hint6 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/9.png" MapID="1593" xpos="801.692" ypos="1.137052" zpos="-159.1501" GUID="gHaMoAb/2keKjCj55B3NwQ==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="mkfidY9Ng0S2O+c5oGOr4w==" trailData="Data\VoE Mirrors\trails\hint-Starlit6.trl"/>
+    <!-- 7+  hint7 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/7.png" MapID="1593" xpos="198.8166" ypos="35.94119" zpos="647.4717" GUID="MSLJH2N6tkyS2Mz6xh0YOg==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="sPWr/Qux90ONyIK4TF4ZLw==" trailData="Data\VoE Mirrors\trails\hint-Starlit7.trl"/>
+    <!-- 6+  hint8 --> <POI iconFile="Data/VoE Mirrors/keychargecheck/8.png" MapID="1593" xpos="123.6994" ypos="3.397777" zpos="-354.823" GUID="C6Z/a/CB7UaQ5k5rOuiCGg==" type="shiny.mirror.chestpath.hintpath.keychargecheck"/>
+      <Trail type="shiny.mirror.chestpath.hintpath" GUID="p5gjWH/V1026WDBNKNplHQ==" trailData="Data\VoE Mirrors\trails\hint-Starlit8.trl"/>
 
   <!-- Shimmering Basin -->
 		<POI MapID="1593" xpos="284.716" ypos="39.7295" zpos="-554.911" type="shiny.mirror" GUID="lUaUjBSpf0yocQKBDFAjcw=="/>
