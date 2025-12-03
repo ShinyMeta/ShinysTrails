@@ -1,6 +1,14 @@
+<!-- markdownlint-disable MD024 -->
+
 # Changelog
 
 ## [Unreleased]
+
+## [1.0.5]- 2025-12-03
+
+### Added
+
+- New alternate routes to use extra charges
 
 ## [1.0.4]- 2025-11-20
 
