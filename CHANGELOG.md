@@ -4,6 +4,12 @@
 
 ## [Unreleased]
 
+## [1.0.6]- 2025-12-07
+
+### Changed
+
+- Fixed one key charge check that was too low
+
 ## [1.0.5]- 2025-12-03
 
 ### Added
